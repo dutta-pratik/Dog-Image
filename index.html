@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Dog Images</title>
+    </head>
+    <body>
+        <!-- Getting Dog Breed -->
+        <div id="upper">
+            <label for="dog-breed"><strong>Dog Breed :</strong> </label>
+            <select id="dog-breed">
+                <option value="" id="dog-list">Select Breed</option>
+            </select>
+            <button type="button" id="fetch">Fetch</button>
+        </div>
+        <!-- Getting Dog Sub-Breed -->
+        <div id="middle">
+            <label for="dog-breed-child" id="label">Dog Sub-Breed :</label>
+            <select id="dog-breed-child">
+                <option value="" id="dog-list-child">Select Sub Breed</option>
+            </select>
+        </div>
+        <!-- Dog Img -->
+        <div id="lower">
+            <img id="dog-img">
+            <button type="button" id="next">Next</button>
+        </div>
+
+        <script src = "jquery-3.4.1.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
